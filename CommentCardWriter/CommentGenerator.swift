@@ -7,26 +7,21 @@
 
 import Foundation
 
-class Comment {
-    let comment: String
+class CommentGenerator {
     
-    init(comment: String) {
-        self.comment = comment
-    }
-    
-    func generateComment(happiness: Float) -> String {
+    func generateComment(happiness: Double) -> String {
         var comment = ""
         switch happiness {
-        case 0...0.25:
+        case 0...2.5:
             comment = "I hate this subject"
-        case 0.25...0.5:
+        case 2.5...5.0:
             comment = "I don't like this subject"
-        case 0.5...0.75:
+        case 5.0...7.5:
             comment = "I like this subject"
-        case 0.75...1.0:
+        case 7.5...10.0:
             comment = "I love this subject"
         default:
-            comment = ""
+            comment = "yufuy"
         }
         return comment
     }
