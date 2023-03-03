@@ -15,6 +15,7 @@
 		CC872D97298E6F8600A8A5D3 /* CommentCardWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC872D96298E6F8600A8A5D3 /* CommentCardWriterUITests.swift */; };
 		CC872D99298E6F8600A8A5D3 /* CommentCardWriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC872D98298E6F8600A8A5D3 /* CommentCardWriterUITestsLaunchTests.swift */; };
 		CC872DA8298E71FF00A8A5D3 /* CommentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC872DA7298E71FF00A8A5D3 /* CommentGenerator.swift */; };
+		CCDA4BAF29B2274100397951 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA4BAE29B2274100397951 /* DestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		CC872D96298E6F8600A8A5D3 /* CommentCardWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITests.swift; sourceTree = "<group>"; };
 		CC872D98298E6F8600A8A5D3 /* CommentCardWriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC872DA7298E71FF00A8A5D3 /* CommentGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentGenerator.swift; sourceTree = "<group>"; };
+		CCDA4BAE29B2274100397951 /* DestinationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				CC872D7B298E6F8400A8A5D3 /* CommentCardWriterApp.swift */,
 				CC872D7D298E6F8400A8A5D3 /* ContentView.swift */,
+				CCDA4BAE29B2274100397951 /* DestinationView.swift */,
 				CC872DA7298E71FF00A8A5D3 /* CommentGenerator.swift */,
 				CC872D7F298E6F8500A8A5D3 /* Assets.xcassets */,
 				CC872D81298E6F8500A8A5D3 /* Preview Content */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC872DA8298E71FF00A8A5D3 /* CommentGenerator.swift in Sources */,
+				CCDA4BAF29B2274100397951 /* DestinationView.swift in Sources */,
 				CC872D7E298E6F8400A8A5D3 /* ContentView.swift in Sources */,
 				CC872D7C298E6F8400A8A5D3 /* CommentCardWriterApp.swift in Sources */,
 			);

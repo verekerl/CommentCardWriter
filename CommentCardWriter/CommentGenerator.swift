@@ -21,7 +21,7 @@ class CommentGenerator {
         case 7.5...10.0:
             comment = "I love this subject"
         default:
-            comment = "yufuy"
+            comment = "Error"
         }
         return comment
     }
